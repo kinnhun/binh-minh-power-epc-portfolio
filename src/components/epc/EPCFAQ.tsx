@@ -35,7 +35,7 @@ export default function EPCFAQ() {
   };
 
   return (
-    <section className="bg-white py-24 relative overflow-hidden">
+    <section id="epc-faq" className="bg-white py-24 relative overflow-hidden">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Section Header */}

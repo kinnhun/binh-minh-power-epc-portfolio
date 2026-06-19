@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "EPC Điện Mặt Trời Công Nghiệp | 50+ Dự Án, 223 MWp — Bình Minh Power",
+  title: "EPC Điện Mặt Trời Công Nghiệp | 50+ Dự Án, 22.3 MWp — Bình Minh Power",
   description: "Bình Minh Power cung cấp EPC điện mặt trời công nghiệp trọn gói cho nhà máy, KCN. Hoàn vốn 2–3 năm, monitoring 24/7, hỗ trợ pháp lý và I-REC. Khảo sát miễn phí trong 48h.",
   keywords: [
     "EPC điện mặt trời công nghiệp",
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Bình Minh Power" }],
   openGraph: {
-    title: "EPC Điện Mặt Trời Công Nghiệp | 50+ Dự Án, 223 MWp — Bình Minh Power",
+    title: "EPC Điện Mặt Trời Công Nghiệp | 50+ Dự Án, 22.3 MWp — Bình Minh Power",
     description: "Bình Minh Power cung cấp EPC điện mặt trời công nghiệp trọn gói cho nhà máy, KCN. Hoàn vốn 2–3 năm, monitoring 24/7, hỗ trợ pháp lý và I-REC. Khảo sát miễn phí trong 48h.",
     url: "https://binhminhpower.com/epc-portfolio",
     siteName: "Bình Minh Power",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "EPC Điện Mặt Trời Công Nghiệp | 50+ Dự Án, 223 MWp — Bình Minh Power",
+    title: "EPC Điện Mặt Trời Công Nghiệp | 50+ Dự Án, 22.3 MWp — Bình Minh Power",
     description: "Bình Minh Power cung cấp EPC điện mặt trời công nghiệp trọn gói cho nhà máy, KCN. Hoàn vốn 2–3 năm, monitoring 24/7, hỗ trợ pháp lý và I-REC. Khảo sát miễn phí trong 48h.",
   },
   robots: {

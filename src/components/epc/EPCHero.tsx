@@ -176,7 +176,7 @@ export default function EPCHero() {
                 {/* Glass statistics badge overlays inside card */}
                 <div className="grid grid-cols-2 gap-3 pt-3">
                   <div className="p-3.5 rounded-2xl bg-white/[0.03] border border-white/5 flex flex-col">
-                    <span className="text-solar-gold text-lg sm:text-xl font-black">223 MWp</span>
+                    <span className="text-solar-gold text-lg sm:text-xl font-black">22.3 MWp</span>
                     <span className="text-stone-400 text-[10px] uppercase font-bold mt-0.5">Tổng công suất</span>
                   </div>
                   <div className="p-3.5 rounded-2xl bg-white/[0.03] border border-white/5 flex flex-col">

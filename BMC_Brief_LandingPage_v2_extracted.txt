@@ -1,0 +1,457 @@
+BRIEF THỰC THI — 3 LANDING PAGE BMC
+Phiên bản: 2.0 — Tái cấu trúc theo định hướng chuyển đổi B2B 
+Ngày: 19/06/2026 
+Phạm vi: Nội dung, UI/UX, Hook, CTA — không bao gồm tracking/quảng cáo
+
+
+1. BỨC TRANH TOÀN CẢNH
+BMC là ai, bán gì, cho ai
+
+Chi tiết
+Đơn vị
+BMC — nhà cung cấp giải pháp điện mặt trời toàn diện (EPC + PPA + tư vấn chứng chỉ)
+Khách hàng mục tiêu
+Chủ nhà máy / xưởng sản xuất, Ban quản lý khu công nghiệp, Chủ trang trại, Doanh nghiệp xuất khẩu vào EU
+Pain point chính
+(1) Hóa đơn điện tăng mỗi năm ăn mòn lợi nhuận · 
+(2) Áp lực CBAM/ESG từ buyer EU · 
+(3) Không có vốn đầu tư hệ thống
+Điểm khác biệt
+PPA 0 đồng đầu tư · 8 năm kinh nghiệm · 50+ dự án · Có I-REC Standard
+Hành động mong muốn
+Điền form → BMC gọi lại trong 24h → Khảo sát thực địa → Chốt hợp đồng
+Tại sao landing page hiện tại chưa chuyển đổi tốt
+Không có ảnh thật — toàn emoji & icon → mất tin cậy với khách B2B
+Hook chưa đủ mạnh — headline nói về BMC, chưa nói về nỗi đau của khách
+Form quá dài — 8 trường trên mobile = tỷ lệ bỏ cao
+Số liệu chưa được verify — gây rủi ro uy tín khi khách crosscheck
+Thiếu urgency thật — deadline đếm ngược cần cụ thể và có lý do
+
+
+2. MỤC TIÊU TỪNG LANDING PAGE
+Trang 1 — CBAM/I-REC Audit
+Mục tiêu: Thu lead nhà máy xuất khẩu EU đang lo ngại CBAM 
+KPI chuyển đổi: Form submit ≥ 3% (B2B benchmark) 
+Hành động ngay: Điền form → nhận báo cáo CBAM miễn phí trong 48h
+Trang 2 — EPC Portfolio
+Mục tiêu: Xây dựng uy tín, thuyết phục khách đang so sánh nhà thầu 
+KPI chuyển đổi: Form liên hệ ≥ 2%, thời gian trên trang ≥ 2 phút 
+Hành động ngay: Xem portfolio → điền form → nhận báo giá sơ bộ
+Trang 3 — PPA Calculator
+Mục tiêu: Thu lead bằng công cụ tính — khách tự thấy lợi ích trước khi nói chuyện 
+KPI chuyển đổi: Calculator sử dụng ≥ 40% session, form submit ≥ 5% 
+Hành động ngay: Kéo slider → thấy số tiết kiệm → điền form
+
+
+3. HOOK & HEADLINE — VIẾT LẠI THEO FORMULA CHUYỂN ĐỔI
+Formula: [Nỗi đau cụ thể] + [Con số chứng minh] + [Giải pháp không rủi ro]
+Trang CBAM/I-REC Audit
+Headline cũ: "Kiểm Tra CBAM/I-REC Miễn Phí"
+
+Headline mới (đề xuất):
+
+"Buyer EU sẽ không mua hàng từ nhà máy chưa có I-REC — Kiểm tra ngay xem bạn đang thiếu gì"
+
+Sub-headline:
+
+60% doanh nghiệp xuất khẩu EU hiện đang yêu cầu green credentials. Từ 2026, thuế CBAM có thể ăn thêm 80–100 EUR/tấn CO₂. Audit miễn phí trong 48h — biết chính xác hồ sơ bạn cần bổ sung.
+
+Urgency bar:
+
+⚠ CBAM Phase 2 có hiệu lực từ 31/12/2026 — còn [X] ngày để chuẩn bị hồ sơ (JS tự tính, không để mặc định = 0)
+
+
+Trang EPC Portfolio
+Headline cũ: "Portfolio Dự Án EPC"
+
+Headline mới (đề xuất):
+
+"50+ nhà máy tại Bình Dương, Đồng Nai, Bình Phước đã giảm 30–45% hóa đơn điện — Nhà máy bạn chưa làm vì lý do gì?"
+
+Sub-headline:
+
+Chúng tôi đã thiết kế và thi công từ 600kWp đến 4MWp. Không phải cam kết — là dự án thật, số liệu thật, khách hàng thật.
+
+
+Trang PPA Calculator
+Headline cũ: "Tính Tiết Kiệm PPA 0 Đồng"
+
+Headline mới (đề xuất):
+
+"Nhà máy bạn đang trả bao nhiêu tiền điện mỗi tháng? Nhập con số đó vào đây."
+
+Sub-headline:
+
+PPA BMC: Không cần vốn đầu tư. Không cần lo bảo trì. Chỉ trả tiền điện thấp hơn — ngay từ tháng đầu tiên.
+
+
+4. NỘI DUNG CHI TIẾT TỪNG TRANG
+
+TRANG 1 — CBAM/I-REC AUDIT
+Cấu trúc trang (order từ trên xuống)
+[1] Urgency Bar — đếm ngược đến 31/12/2026
+
+[2] Hero Section — Headline + Sub + Form ngắn (3 trường)
+
+[3] Pain Section — "Điều gì xảy ra nếu bạn không chuẩn bị?"
+
+[4] Quy trình Audit — 3 bước đơn giản
+
+[5] Social Proof — 3 nhà máy đã có I-REC (ảnh + logo + số liệu)
+
+[6] FAQ — 5 câu hỏi thường gặp về CBAM/I-REC
+
+[7] Form đầy đủ + CTA chính
+
+[8] Footer
+Pain Section — "3 rủi ro nhà máy xuất khẩu EU đang đối mặt"
+Rủi ro
+Chi tiết
+Mất đơn hàng
+Buyer Đức, Hà Lan, Pháp đang bổ sung điều khoản xanh vào hợp đồng 2026
+Thuế CBAM
+Từ 2026: 80–100 EUR/tấn CO₂ — một nhà máy 4MW có thể chịu thêm 2–5 tỷ VND/năm
+Không kịp chuẩn bị
+Quy trình xin I-REC mất 2–4 tháng — bắt đầu muộn = không kịp hạn nộp hồ sơ
+Quy trình Audit — 3 bước
+Điền form → BMC xác nhận trong 2h làm việc
+Khảo sát từ xa → Chuyên gia BMC đánh giá hồ sơ CBAM/I-REC của nhà máy trong 48h
+Nhận báo cáo → Biết chính xác cần bổ sung gì, lộ trình xin I-REC, chi phí ước tính
+Form — 2 bước (thay vì 1 form 8 trường)
+Step 1 (hiển thị ngay):
+
+Họ tên & chức vụ
+Số điện thoại
+Tên nhà máy / công ty
+
+Step 2 (sau khi submit step 1):
+
+Email
+Tỉnh / KCN
+Bạn đã có I-REC chưa? (radio: Có / Không / Không biết)
+Nhà máy có xuất khẩu sang EU không? (radio: Có / Không / Đang chuẩn bị)
+
+Form 2 bước tăng tỷ lệ hoàn thành 40–60% so với 1 form dài. Sau khi submit step 1, tâm lý "đã cam kết" giúp khách điền tiếp.
+Số liệu cần verify trước khi publish
+"50+ nhà máy đã có I-REC" — xác nhận số thực
+"8 năm kinh nghiệm" — xác nhận năm thành lập BMC
+"60% buyer EU yêu cầu green credentials" — cần nguồn (VCCI, IFC, hoặc survey nội bộ)
+Mức thuế CBAM "80–100 EUR/tấn CO₂" — xác nhận theo quy định EU 2026
+
+
+TRANG 2 — EPC PORTFOLIO
+Cấu trúc trang
+[1] Hero — Headline mạnh + 3 số liệu nổi bật (50+ dự án, [X] MWp, 8 năm)
+
+[2] Dự án nổi bật — 5 project card (ảnh thật + số liệu)
+
+[3] Quy trình EPC — 5 giai đoạn
+
+[4] Thiết bị & Đối tác — logo thật
+
+[5] Testimonial — quote thật từ khách hàng
+
+[6] Form liên hệ + CTA
+
+[7] Footer
+LỖI CẦN SỬA NGAY (trước khi publish)
+⚠ CRITICAL: Header ghi "TỔNG CÔNG SUẤT 223 MWp" (toàn portfolio) và card "Gỗ Thuận Lợi" cũng ghi "223 MWp" cho 1 dự án — hai số trùng nhau, logic mâu thuẫn.
+
+Cần xác nhận:
+
+Tổng công suất toàn portfolio thực tế là bao nhiêu MWp?
+Dự án Gỗ Thuận Lợi thực tế là bao nhiêu kWp/MWp?
+Sửa 1 trong 2 số trước khi live
+5 Project Card — nội dung mỗi card
+Mỗi card cần: Ảnh thật + Tên dự án + Công suất + Tiết kiệm/năm + Thời gian hoàn vốn + Badge giải pháp
+
+Dự án
+Công suất
+Tiết kiệm/năm
+Hoàn vốn
+Giải pháp
+Gỗ Đất Việt
+840 kWp
+[verify]
+[verify]
+EPC
+Gỗ Thuận Lợi
+[verify MWp]
+[verify]
+[verify]
+EPC
+Xi Măng Bình Long
+4 MWp
+[verify]
+[verify]
+EPC
+Vĩnh Phú Nhựa
+600 kWp
+[verify]
+[verify]
+PPA
+Gỗ Bình Định
+2,1 MWp
+[verify]
+[verify]
+EPC
+
+Số liệu tiết kiệm phải đồng nhất với Case Study trên trang PPA Calculator.
+Form — tối ưu còn 5 trường
+Họ tên + Chức vụ
+Số điện thoại
+Tên công ty / nhà máy
+Hóa đơn điện trung bình/tháng (dropdown: <50tr / 50–200tr / 200–500tr / >500tr)
+Quan tâm giải pháp nào (checkbox: EPC / PPA / I-REC / Tư vấn)
+
+
+TRANG 3 — PPA CALCULATOR
+Cấu trúc trang
+[1] Hero — Headline + Sub + prompt nhập liệu ngay
+
+[2] Calculator — Slider hóa đơn + Slider diện tích + % chiết khấu
+
+[3] Kết quả — Tiết kiệm tháng/năm/15 năm + Bảng ROI chi tiết
+
+[4] Bảng so sánh — Điện lưới vs PPA BMC
+
+[5] Case Study — 3 nhà máy thật (ảnh + số liệu)
+
+[6] Quy trình PPA — 4 bước
+
+[7] Form ngắn + CTA
+
+[8] Footer
+Công thức tính (đã cập nhật vào code)
+CÔNG SUẤT LẮP ĐẶT (kWp)  = Hóa đơn (VND) / 2.200 × 0,7 / 30 / 4,8
+
+CÔNG SUẤT KHẢ THI (kWp)   = Diện tích mái (m²) / 6,5
+
+CÔNG SUẤT HỆ THỐNG        = min(CÔNG SUẤT LẮP ĐẶT, CÔNG SUẤT KHẢ THI)
+
+TIẾT KIỆM/NĂM (VND)       = Công suất HT × 4,8 × 365 × (2.200 × Chiết khấu%)
+
+Hằng số
+Giá trị
+Giải thích
+Giá điện
+2.200 đ/kWh
+Giá điện bình quân công nghiệp 2026
+Tỷ lệ tự dùng
+70%
+Phần hóa đơn phát sinh từ điện ban ngày
+Ngày/tháng
+30
+Quy đổi tháng → ngày
+Giờ nắng/ngày
+4,8h
+Trung bình miền Nam VN
+Diện tích/kWp
+6,5 m²
+Tấm monocrystalline 400W tiêu chuẩn
+
+Action: Team kỹ thuật xác nhận các hằng số, đặc biệt giờ nắng (4,8h cho miền Nam, có thể làm 4,2h cho miền Bắc sau này nếu muốn tách vùng).
+Case Study — số liệu phải khớp với EPC Portfolio page
+Nhà máy
+Công suất
+Tiết kiệm/tháng
+Tiết kiệm/năm
+Nhà máy Nhựa (Vĩnh Phú)
+600 kWp
+[verify = EPC page]
+[verify]
+Nhà máy Gỗ (Gỗ Đất Việt)
+840 kWp
+[verify = EPC page]
+[verify]
+Nhà máy Xi Măng (Bình Long)
+4 MWp
+[verify = EPC page]
+[verify]
+
+
+5. HÌNH ẢNH — YÊU CẦU CỤ THỂ
+Nguồn ảnh
+Ảnh dự án: Lấy từ thư mục ảnh case study BMC — mỗi dự án cần ít nhất 1 ảnh góc rộng từ trên (drone/panorama nhìn thấy toàn bộ tấm pin trên mái)
+Ảnh thi công: Đội ngũ đang làm việc trên mái — tạo cảm giác tin tưởng, chuyên nghiệp
+Chứng chỉ I-REC: Scan/ảnh chứng chỉ thật (có thể blur tên khách nếu cần)
+Logo đối tác: Download từ website chính thức — Huawei Solar, Sungrow, Canadian Solar, I-REC Standard — dùng file SVG/PNG nền trong
+Spec kỹ thuật ảnh
+Vị trí
+Kích thước tối thiểu
+Format
+Dung lượng tối đa
+Hero background
+1440×900px
+WebP
+150 KB
+Project card
+800×500px
+WebP
+80 KB
+Case study
+600×400px
+WebP
+60 KB
+Logo đối tác
+200×80px
+SVG/PNG
+20 KB
+Testimonial avatar
+100×100px
+WebP
+15 KB
+
+Tất cả ảnh phải có alt text tiếng Việt mô tả nội dung ảnh.
+
+
+6. UI/UX — YÊU CẦU KỸ THUẬT
+Brand colors (không thay đổi)
+--gold:  #F8B914   /* CTA, highlight, accent */
+
+--brown: #3D2900   /* Heading, dark section bg */
+
+--cream: #FBF7EF   /* Light section bg */
+
+Font: Arial Black cho heading · Calibri cho body text
+Mobile-first checklist (test trước khi publish)
+Slider hóa đơn và slider diện tích kéo mượt trên iOS Safari & Android Chrome
+Form 2 bước không bị cắt trên màn hình 375px
+Bảng so sánh 8 dòng không tràn — cân nhắc scroll ngang hoặc card view trên mobile
+Project card: 1 cột trên mobile, 2 cột tablet, 3 cột desktop
+Accordion FAQ đóng/mở mượt, không nhảy layout
+Modal "Đã nhận thông tin" đóng được bằng nút X và click ngoài
+Urgency bar không che nội dung khi cuộn
+Form — tiêu chuẩn chung cho cả 3 trang
+Label nằm TRÊN input (không dùng placeholder thay label)
+Trường bắt buộc đánh dấu * màu đỏ
+Error message hiển thị dưới trường — VD: "Vui lòng nhập số điện thoại" (không phải "Invalid input")
+Submit button disabled khi đang gửi (tránh double-submit)
+Sau submit: hiển thị modal "BMC sẽ liên hệ lại trong 24h làm việc" — không redirect
+Urgency bar fix (CBAM page)
+<!-- Mặc định trước khi JS chạy — không để = 0 -->
+
+<span id="days-left">đang tải...</span> ngày
+
+const deadline = new Date('2026-12-31');
+
+const today = new Date();
+
+const daysLeft = Math.ceil((deadline - today) / (1000 * 60 * 60 * 24));
+
+document.getElementById('days-left').textContent = daysLeft;
+
+
+7. THAM KHẢO — HOOK HIỆU QUẢ TRONG B2B SOLAR
+Patterns từ landing page B2B Solar quốc tế có conversion cao
+Pattern
+Ví dụ
+Áp dụng cho BMC
+ROI Calculator trước form
+SolarEdge: "Calculate savings in 60 seconds"
+PPA Calculator — đây là điểm mạnh nhất, đặt ngay đầu trang
+Số tiền tiết kiệm cụ thể
+"Reduce energy costs by up to 30% with $0 down"
+"Tiết kiệm tới 45% hóa đơn điện — không cần đầu tư đồng nào"
+Social proof trước form
+Greenskies: Case study → Trust → Form
+EPC Portfolio: Dự án thật + số liệu thật → sau đó mới form
+Tách trang theo ngành
+Gransolar: Nhà máy gỗ / xi măng / logistics riêng
+Tiếp theo có thể tách thêm theo KCN hoặc ngành sản xuất
+Urgency có lý do thật
+CBAM deadline thật 31/12/2026
+Dùng ngay — đây là urgency thật, không phải giả tạo
+Cam kết không rủi ro rõ ràng
+"No upfront cost. Cancel anytime."
+"PPA 0 đồng · BMC chịu rủi ro vận hành · Bảo hành 25 năm"
+Những gì KHÔNG nên làm (học từ landing page kém hiệu quả)
+Hero section = form ngay → Khách B2B chưa tin thì không điền
+CTA là "Liên hệ chúng tôi" → Quá chung, không có lợi ích rõ ràng
+Hình minh họa 3D/vector thay ảnh thật → Mất uy tín với chủ nhà máy
+Không có số liệu cụ thể → "Tiết kiệm nhiều" không thuyết phục bằng "Tiết kiệm 2,3 tỷ/năm"
+
+
+8. THỨ TỰ ƯU TIÊN THỰC THI
+Sprint 1 — Blocking (làm trước khi đưa vào dùng)
+#
+Task
+Trang
+Người làm
+1
+Sửa lỗi số liệu "223 MWp" trùng
+EPC Portfolio
+Dev
+2
+Fix urgency bar không hiển thị "0 ngày"
+CBAM Audit
+Dev
+3
+Verify toàn bộ số liệu dự án với team kỹ thuật
+Tất cả
+Marketing + KT
+4
+Rút form xuống 3–5 trường / triển khai 2-step form
+Tất cả
+Dev
+5
+Rewrite headline theo hook formula (mục 3)
+Tất cả
+Marketing
+Sprint 2 — High impact
+#
+Task
+Trang
+Người làm
+6
+Bổ sung ảnh thực tế hệ thống dự án
+Tất cả
+Marketing/Design
+7
+Đồng nhất số liệu case study PPA ↔ EPC
+PPA + EPC
+Marketing
+8
+Test mobile: slider, form, bảng so sánh
+Tất cả
+Dev + QA
+Sprint 3 — Polish
+#
+Task
+Trang
+Người làm
+9
+Logo BMC chính thức + favicon
+Tất cả
+Design
+10
+Logo đối tác thật (Huawei, Sungrow, Canadian Solar...)
+Tất cả
+Design
+11
+Meta description cho cả 3 trang
+Tất cả
+Marketing
+12
+Testimonial khách hàng thật (ảnh + tên đầy đủ)
+Tất cả
+Sales
+13
+Đồng nhất cách viết số (2,5 tỷ / MWp / kWp)
+Tất cả
+Marketing
+
+
+9. CHECKLIST TRƯỚC KHI LAUNCH
+Tất cả số liệu đã được team kỹ thuật/kinh doanh xác nhận bằng văn bản
+Form submit gửi dữ liệu về đúng nơi (CRM / email / Google Sheet)
+Test trên: iPhone SE (375px), iPhone 14, Samsung Galaxy, iPad, Desktop 1440px
+Urgency bar hiển thị đúng số ngày thực, không còn "0 ngày"
+Không còn emoji thay ảnh thật
+Logo BMC chính thức trên cả 3 trang + favicon
+Tốc độ tải < 3 giây trên 4G (kiểm tra bằng PageSpeed Insights)
+Deployment Protection đã tắt — link public, không yêu cầu đăng nhập
+
+
+
+Mọi ô [verify] là điểm cần team kỹ thuật/kinh doanh điền số thực trước Sprint 2.

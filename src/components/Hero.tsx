@@ -17,6 +17,7 @@ export default function Hero() {
             muted
             loop
             playsInline
+            poster="/image.png"
             className="absolute top-1/2 left-1/2 w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full scale-105"
           >
             <source src="/Create_a_premium_cinematic_her.mp4" type="video/mp4" />
@@ -33,7 +34,7 @@ export default function Hero() {
           <div className="h-20 md:h-28 w-full shrink-0" />
 
           {/* Centered Typography Hook Container */}
-          <div className="w-full flex flex-col items-center pt-8 px-6 text-center max-w-4xl select-text">
+          <div className="w-full flex flex-col items-center px-8 sm:px-12 md:px-20 lg:px-28 xl:px-32 text-center max-w-5xl select-text pb-64 sm:pb-68 md:pb-60 lg:pb-44 xl:pb-24">
             
             {/* Glass Badge */}
             <HeroBadge />
@@ -43,9 +44,11 @@ export default function Hero() {
               initial={{ opacity: 0, scale: 0.98 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-4xl sm:text-5xl md:text-6xl lg:text-[72px] xl:text-[80px] font-bold text-white mb-3 tracking-tight leading-[1.05] drop-shadow-[0_4px_16px_rgba(0,0,0,0.6)]"
+              className="text-[18px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] font-bold text-white mb-5 tracking-tight leading-[1.25] max-w-4xl mx-auto drop-shadow-[0_4px_16px_rgba(0,0,0,0.6)]"
             >
-              EPC <span className="text-solar-gold">Điện Mặt Trời</span> Công Nghiệp
+              50+ nhà máy đã <span className="text-solar-gold">giảm 30–45%</span> hóa đơn điện
+              <br className="hidden sm:inline" />
+              Nhà máy bạn chưa làm vì lý do gì?
             </motion.h1>
 
             {/* Sub-headline copy */}
@@ -53,9 +56,9 @@ export default function Hero() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="text-sm sm:text-base md:text-lg text-white/95 leading-relaxed max-w-2xl font-normal drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"
+              className="text-xs sm:text-sm md:text-base text-white/90 leading-relaxed max-w-xl sm:max-w-2xl font-normal drop-shadow-[0_2px_8px_rgba(0,0,0,0.6)]"
             >
-              Bình Minh Power đã triển khai 50+ dự án tại các KCN lớn nhất miền Nam. Thiết kế → Thi công → Nghiệm thu pháp lý → I-REC. Trọn gói A–Z.
+              Chúng tôi đã thiết kế và thi công từ 600kWp đến 4MWp. Không phải cam kết — là dự án thật, số liệu thật, khách hàng thật.
             </motion.p>
           </div>
 

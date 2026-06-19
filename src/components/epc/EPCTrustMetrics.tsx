@@ -2,31 +2,36 @@
 
 import React from "react";
 import { motion } from "motion/react";
+import { cn } from "@/lib/utils";
 
 export default function EPCTrustMetrics() {
   const metrics = [
     {
-      value: "223 MWp",
-      label: "Tổng công suất",
+      number: "22.3",
+      unit: "MWp",
+      label: "Tổng công suất lắp đặt",
     },
     {
-      value: "50+",
+      number: "50",
+      unit: "+",
       label: "Dự án hoàn thành",
     },
     {
-      value: "8 năm",
+      number: "8",
+      unit: "năm",
       label: "Kinh nghiệm thực tế",
     },
     {
-      value: "25 ngày",
+      number: "25",
+      unit: "ngày",
       label: "Thi công nhanh nhất",
     },
   ];
 
   return (
-    <section className="bg-rivr-bg py-16 select-none relative z-20">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 items-center">
+    <section className="bg-rivr-bg py-20 select-none relative z-20 border-y border-stone-200/40">
+      <div className="max-w-6xl mx-auto px-6">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-y-10 lg:gap-y-0">
           {metrics.map((m, idx) => (
             <motion.div
               key={idx}
@@ -34,12 +39,26 @@ export default function EPCTrustMetrics() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="flex flex-col text-center justify-center relative md:border-r border-stone-300/40 last:border-none px-4"
+              className={cn(
+                "flex flex-col text-left px-6 lg:px-8",
+                // Mobile layout left border (even index = left col, odd index = right col)
+                idx % 2 === 1 ? "border-l border-stone-200/80" : "border-none",
+                // Desktop layout left border (all columns except first get border-l)
+                "lg:border-l lg:border-stone-200/80 lg:first:border-none"
+              )}
             >
-              <span className="block text-3xl sm:text-4xl md:text-[42px] font-normal text-slate-text tracking-tight leading-none mb-2">
-                {m.value}
-              </span>
-              <span className="block text-slate-text opacity-60 text-[10px] md:text-[11px] font-normal uppercase tracking-widest leading-tight">
+              {/* Number and Unit Display */}
+              <div className="flex items-baseline mb-2">
+                <span className="text-4xl sm:text-5xl lg:text-6xl font-light text-slate-text tracking-tighter leading-none">
+                  {m.number}
+                </span>
+                <span className="text-solar-gold text-lg sm:text-xl lg:text-2xl font-normal ml-1.5">
+                  {m.unit}
+                </span>
+              </div>
+              
+              {/* Label */}
+              <span className="text-stone-500 text-[10px] md:text-[11px] font-bold uppercase tracking-widest leading-relaxed">
                 {m.label}
               </span>
             </motion.div>

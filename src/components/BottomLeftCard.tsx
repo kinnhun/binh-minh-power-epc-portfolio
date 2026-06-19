@@ -14,10 +14,10 @@ export default function BottomLeftCard() {
     >
       {/* Metrics Column */}
       <div className="flex flex-col text-left">
-        <span className="text-2xl md:text-3xl font-normal text-deep-brown tracking-tight">
-          223 MWp
+        <span className="text-2xl md:text-3xl font-extrabold text-white tracking-tight drop-shadow-sm">
+          22.3 MWp
         </span>
-        <span className="text-[10px] md:text-[12px] font-normal text-earth-brown/80 uppercase tracking-wider">
+        <span className="text-[10px] md:text-[12px] font-bold text-solar-gold uppercase tracking-wider mt-0.5">
           50+ Dự án · Tổng công suất
         </span>
       </div>
@@ -32,7 +32,7 @@ export default function BottomLeftCard() {
           <div className="bg-solar-gold/10 p-1 rounded-full text-deep-brown flex items-center justify-center">
             <Phone className="w-3.5 h-3.5" />
           </div>
-          <span className="text-[14px] font-normal text-deep-brown whitespace-nowrap">
+          <span className="text-[14px] font-bold text-deep-brown whitespace-nowrap">
             0901 234 788
           </span>
         </motion.div>
