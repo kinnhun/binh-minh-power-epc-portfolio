@@ -100,7 +100,7 @@ export default function EPCProcess() {
                 whileTap={{ scale: 0.98 }}
                 type="button"
                 onClick={scrollToForm}
-                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-solar-gold text-deep-brown font-extrabold hover:bg-solar-gold-hover text-xs uppercase tracking-wider transition-all cursor-pointer shadow-md shadow-solar-gold/10 focus:outline-none"
+                className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-solar-gold text-deep-brown font-extrabold hover:bg-solar-gold-hover text-xs uppercase tracking-wider transition-all cursor-pointer shadow-md shadow-solar-gold/10 focus:outline-none animate-pulse-glow"
               >
                 <span>Yêu cầu khảo sát ngay</span>
                 <ArrowUpRight className="w-4 h-4" />

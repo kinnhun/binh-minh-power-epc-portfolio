@@ -25,7 +25,7 @@ export default function Hero() {
         </div>
 
         {/* Backdrop color protection shield - intercepts pointers to block YouTube hover controls */}
-        <div className="absolute inset-0 bg-black/45 backdrop-blur-[0.2px] z-0" />
+        <div className="absolute inset-0 bg-black/35 backdrop-blur-[0.2px] z-0" />
 
         {/* Content Layer */}
         <div className="relative z-10 w-full h-full flex flex-col items-center justify-between">
@@ -46,7 +46,7 @@ export default function Hero() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="text-[18px] sm:text-[24px] md:text-[28px] lg:text-[32px] xl:text-[36px] font-bold text-white mb-5 tracking-tight leading-[1.25] max-w-4xl mx-auto drop-shadow-[0_4px_16px_rgba(0,0,0,0.6)]"
             >
-              50+ nhà máy đã <span className="text-solar-gold">giảm 30–45%</span> hóa đơn điện
+              50+ nhà máy đã <span className="text-solar-gold">giảm 30–45%</span> hóa đơn điện{" "}
               <br className="hidden sm:inline" />
               Nhà máy bạn chưa làm vì lý do gì?
             </motion.h1>

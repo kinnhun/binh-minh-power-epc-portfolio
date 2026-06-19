@@ -23,6 +23,19 @@
   --color-navy-accent: #3D2900;
   --color-navy-solid: #3D2900;
   --color-rivr-bg: #f7f7f5;
+  
+  --animate-pulse-glow: pulse-glow 2s infinite ease-in-out;
+
+  @keyframes pulse-glow {
+    0%, 100% {
+      transform: scale(1);
+      box-shadow: 0 4px 12px 0 rgba(248, 185, 20, 0.25);
+    }
+    50% {
+      transform: scale(1.025);
+      box-shadow: 0 4px 22px 6px rgba(248, 185, 20, 0.65);
+    }
+  }
 }
 
 :root {

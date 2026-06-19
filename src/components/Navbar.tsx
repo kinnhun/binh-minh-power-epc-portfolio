@@ -86,7 +86,7 @@ export default function Navbar() {
           
           <div className="flex flex-col text-left leading-none">
             <span className={cn(
-              "font-sans font-black tracking-tight text-xs sm:text-sm transition-colors duration-300",
+              "font-sans font-black tracking-tight text-xs sm:text-sm transition-colors duration-300 whitespace-nowrap",
               isScrolled 
                 ? "text-navy-accent group-hover:text-solar-gold" 
                 : "text-white group-hover:text-solar-gold"
@@ -94,7 +94,7 @@ export default function Navbar() {
               Bình Minh Power
             </span>
             <span className={cn(
-              "font-sans text-[8.5px] mt-0.5 flex items-center gap-0.5 leading-none font-semibold shrink-0 transition-colors duration-300",
+              "font-sans text-[8.5px] mt-0.5 flex items-center gap-0.5 leading-none font-semibold shrink-0 transition-colors duration-300 whitespace-nowrap",
               isScrolled ? "text-earth-brown" : "text-stone-300"
             )}>
               <Award className="w-2.5 h-2.5 text-solar-gold shrink-0" />
@@ -184,7 +184,7 @@ export default function Navbar() {
             }}
             whileTap={{ scale: 0.97 }}
             className={cn(
-              "relative overflow-hidden group px-4 py-2 rounded-full text-[11px] sm:text-xs font-black shadow-xs cursor-pointer focus:outline-none transition-all duration-300 flex items-center gap-1.5",
+              "relative overflow-hidden group px-4 py-2 rounded-full text-[11px] sm:text-xs font-black shadow-xs cursor-pointer focus:outline-none transition-all duration-300 flex items-center gap-1.5 animate-pulse-glow",
               isScrolled 
                 ? "bg-navy-accent hover:bg-earth-brown text-white" 
                 : "bg-solar-gold hover:bg-solar-gold-hover text-deep-brown"
@@ -205,7 +205,10 @@ export default function Navbar() {
               <ArrowUpRight className="w-2.5 h-2.5 text-current" />
             </div>
 
-            <span className="relative z-10">Khảo sát miễn phí</span>
+            <span className="relative z-10">
+              <span className="hidden sm:inline">Khảo sát miễn phí</span>
+              <span className="sm:hidden">Khảo sát</span>
+            </span>
           </motion.button>
         </div>
 

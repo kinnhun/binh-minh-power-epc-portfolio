@@ -45,7 +45,7 @@ export default function StickyCTA() {
           <button
             type="button"
             onClick={scrollToForm}
-            className="flex-[2] py-3 px-4 rounded-xl bg-solar-gold text-deep-brown text-center text-xs font-black flex items-center justify-center gap-2 hover:bg-solar-gold-hover transition-colors focus:outline-none cursor-pointer"
+            className="flex-[2] py-3 px-4 rounded-xl bg-solar-gold text-deep-brown text-center text-xs font-black flex items-center justify-center gap-2 hover:bg-solar-gold-hover transition-colors focus:outline-none cursor-pointer animate-pulse-glow"
           >
             <Calendar className="w-4 h-4" />
             <span>Nhận báo giá EPC</span>
