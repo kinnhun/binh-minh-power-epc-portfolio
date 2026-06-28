@@ -52,14 +52,27 @@ export default function EPCLeadForm() {
 
     setIsSubmitting(true);
 
+    // Map values to match exact Google Form option values
+    let interestValue = formData.interest;
+    if (interestValue === "I-REC / CBAM") {
+      interestValue = "I-REC/CBAM";
+    }
+
+    // Google Form currently has only a single choice "Tùy chọn 1" for monthly bill.
+    // If the value is not empty, map to "Tùy chọn 1" to prevent HTTP 400.
+    let billValue = formData.monthlyBill;
+    if (billValue && billValue !== "Tùy chọn 1") {
+      billValue = "Tùy chọn 1";
+    }
+
     const GOOGLE_FORM_ACTION_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfRgtHWXiVO09yRgi0HvgZ4uiLw91KETHHFLpBgrKZoPVDY1A/formResponse";
     const formBody = new URLSearchParams();
     formBody.append("entry.1515055908", formData.fullName);
     formBody.append("entry.1535873163", formData.jobTitle);
     formBody.append("entry.758487883", formData.companyName);
     formBody.append("entry.1434740263", formData.phone);
-    formBody.append("entry.462650961", formData.monthlyBill);
-    formBody.append("entry.389660203", formData.interest);
+    formBody.append("entry.462650961", billValue);
+    formBody.append("entry.389660203", interestValue);
 
     try {
       await fetch(GOOGLE_FORM_ACTION_URL, {
