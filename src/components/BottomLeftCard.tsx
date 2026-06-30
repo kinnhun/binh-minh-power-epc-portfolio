@@ -23,7 +23,7 @@ export default function BottomLeftCard() {
       </div>
 
       {/* Click-to-call Phone Button */}
-      <a href="tel:0901234788" className="self-start">
+      <a href="tel:0913943788" className="self-start">
         <motion.div
           whileHover={{ scale: 1.02 }}
           whileTap={{ scale: 0.98 }}
@@ -33,7 +33,7 @@ export default function BottomLeftCard() {
             <Phone className="w-3.5 h-3.5" />
           </div>
           <span className="text-[14px] font-bold text-deep-brown whitespace-nowrap">
-            0901 234 788
+            0913 943 788
           </span>
         </motion.div>
       </a>

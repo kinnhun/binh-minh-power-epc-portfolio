@@ -186,7 +186,7 @@ export default function EPCLeadForm() {
                     Gửi thông tin thành công!
                   </h3>
                   <p className="text-slate-500 text-xs sm:text-sm leading-relaxed max-w-sm font-normal">
-                    Kỹ sư trưởng mảng EPC dự án của Bình Minh Power đã tiếp nhận yêu cầu và sẽ gọi lại tư vấn phương án sơ bộ cho bạn trong vòng 2 giờ.
+                    Kỹ sư trưởng mảng EPC dự án của Bình Minh Power đã tiếp nhận yêu cầu và sẽ gọi lại tư vấn phương án sơ bộ cho anh/chị trong vòng 2 giờ.
                   </p>
                   <button
                     type="button"
@@ -200,7 +200,7 @@ export default function EPCLeadForm() {
                 <div className="select-text">
                   <div className="border-b border-stone-100 pb-4 mb-6">
                     <h3 className="font-normal text-slate-950 text-xl sm:text-2xl tracking-tight">
-                      Nhận báo giá EPC — Không ràng buộc
+                      Nhận báo giá EPC
                     </h3>
                   </div>
  
@@ -370,7 +370,7 @@ export default function EPCLeadForm() {
  
                   <div className="flex items-center justify-center gap-1.5 text-[10px] sm:text-xs text-slate-400 mt-5 pt-4 border-t border-slate-100 font-medium">
                     <Shield className="w-4 h-4 text-solar-gold shrink-0" />
-                    <span>🔒 Không ép mua. Khảo sát miễn phí hoàn toàn.</span>
+                    <span>🔒 Khảo sát miễn phí hoàn toàn.</span>
                   </div>
                 </div>
               )}

@@ -34,7 +34,7 @@ export default function StickyCTA() {
         >
           {/* Call Hotline */}
           <a
-            href="tel:0901234788"
+            href="tel:0913943788"
             className="flex-1 py-3 px-4 rounded-xl border border-solar-gold bg-[#FFFDF2] text-earth-brown text-center text-xs font-black flex items-center justify-center gap-2 hover:bg-stone-50 transition-colors focus:outline-none"
           >
             <Phone className="w-4 h-4 text-solar-gold animate-bounce" />

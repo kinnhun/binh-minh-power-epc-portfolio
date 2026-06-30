@@ -48,7 +48,7 @@ export default function Hero() {
             >
               50+ nhà máy đã <span className="text-solar-gold">giảm 30–45%</span> hóa đơn điện{" "}
               <br className="hidden sm:inline" />
-              Nhà máy bạn chưa làm vì lý do gì?
+              Nhà máy anh/chị chưa làm vì lý do gì?
             </motion.h1>
 
             {/* Sub-headline copy */}

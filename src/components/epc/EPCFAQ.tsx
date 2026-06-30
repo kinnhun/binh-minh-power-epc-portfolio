@@ -20,11 +20,11 @@ export default function EPCFAQ() {
     },
     {
       q: "Nhà máy chưa muốn bỏ vốn đầu tư ban đầu có lắp đặt được không?",
-      a: "Có. Chúng tôi cung cấp giải pháp hợp tác PPA 0 Đồng (Hợp đồng mua bán điện). Trong mô hình này, quỹ tài chính liên kết của BMC sẽ đầu tư 100% chi phí lắp đặt và bảo trì. Nhà máy chỉ cần cho thuê mái và mua lại nguồn điện mặt trời phát ra với mức chiết khấu ưu đãi từ 15–25% so với giá của EVN.",
+      a: "Có. Chúng tôi cung cấp giải pháp hợp tác PPA 0 Đồng (Hợp đồng mua bán điện). Trong mô hình này, quỹ tài chính liên kết của BMC sẽ đầu tư 100% chi phí lắp đặt và bảo trì. Nhà máy chỉ cần cho thuê mái và mua lại nguồn điện mặt trời phát ra với giá thấp hơn giá điện EVN.",
     },
     {
       q: "Hệ thống điện mặt trời áp mái có được cấp chứng chỉ I-REC không?",
-      a: "Có. Với tư cách là đại lý cấp 1 của tổ chức registry I-REC Standard Singapore, Bình Minh Power hỗ trợ trọn gói hồ sơ kỹ thuật, đăng ký thông tin nhà máy và phát hành chứng chỉ năng lượng tái tạo I-REC hàng năm theo sản lượng điện thực tế, giúp doanh nghiệp đạt chuẩn báo cáo ESG, Scope 2 và CBAM.",
+      a: "Có. Bình Minh Power là đơn vị cung cấp tín chỉ I-REC, hỗ trợ trọn gói hồ sơ kỹ thuật, đăng ký thông tin nhà máy và phát hành chứng chỉ năng lượng tái tạo I-REC hàng năm theo sản lượng điện thực tế, giúp doanh nghiệp đạt chuẩn báo cáo ESG, Scope 2 và CBAM.",
     },
   ];
 

@@ -16,77 +16,77 @@ export default function EPCProjects() {
   const projects = [
     {
       id: 1,
-      name: "Gỗ Đất Việt",
-      capacity: "840 kWp",
+      name: "Xưởng gỗ Đất Việt - Bàu Bàng, Bình Dương",
+      capacity: "800 kWp",
       location: "KCN Bàu Bàng, Bình Dương",
-      industry: "Chế biến Gỗ",
+      industry: "Chế biến gỗ",
       model: "EPC",
-      savings: "~2,5 tỷ VND/năm",
-      payback: "2,5 năm",
-      co2: "420 tấn/năm",
+      savings: "2 tỷ VND/năm",
+      payback: "3 năm",
+      co2: "830 tấn",
       device: "Canadian Solar & Huawei",
       duration: "25 ngày",
-      status: "Đang chạy",
+      status: "Đang vận hành",
       tag: "epc",
     },
     {
       id: 2,
-      name: "Gỗ Thuận Lợi",
-      capacity: "2.3 MWp",
+      name: "Gỗ Thuận Lợi BP - Bình Phước",
+      capacity: "2300 kWp",
       location: "Bình Phước",
-      industry: "Chế biến Gỗ",
+      industry: "Chế biến gỗ",
       model: "EPC",
-      savings: "5,1 tỷ VND/năm",
-      payback: "2,7 năm",
-      co2: "2.100 tấn/năm",
-      device: "Canadian Solar & Sungrow",
+      savings: "5,8 tỷ VND/năm",
+      payback: "3,1 năm",
+      co2: "2.502 tấn",
+      device: "JA Solar",
       duration: "35 ngày",
-      status: "Lớn nhất BP",
+      status: "Đang vận hành",
       tag: "epc",
     },
     {
       id: 3,
-      name: "Xi Măng Bình Long",
-      capacity: "4.0 MWp",
+      name: "Xi măng BP - Bình Phước",
+      capacity: "4000 kWp",
       location: "Bình Phước",
-      industry: "Xi măng / Heavy Industry",
+      industry: "Sản xuất xi măng",
       model: "EPC",
-      savings: "~3,5 tỷ VND/năm",
-      payback: "3 năm",
-      co2: "2.000 tấn/năm",
-      device: "Canadian Solar & Sungrow",
+      savings: "10,2 tỷ VND/năm",
+      payback: "3,1 năm",
+      co2: "4.352 tấn",
+      device: "JA Solar",
       duration: "45 ngày",
-      status: "Đang chạy",
+      status: "Đang vận hành",
       tag: "epc",
     },
     {
       id: 4,
-      name: "Vĩnh Phú Nhựa",
-      capacity: "600 kWp",
+      name: "Nhựa Vĩnh Phú",
+      capacity: "595 kWp",
       location: "KCN VSIP 2, Bình Dương",
-      industry: "Sản xuất Nhựa",
+      industry: "Sản xuất nhựa",
       model: "PPA 0 Đồng",
-      savings: "~1,2 tỷ VND/năm",
-      payback: "0đ vốn đầu tư",
-      co2: "510 tấn/năm",
-      device: "Jinko Solar & Sungrow",
+      savings: "1,6 tỷ VND/năm",
+      payback: "3,2 năm",
+      co2: "615 tấn",
+      device: "JA Solar",
       duration: "20 ngày",
-      status: "PPA 0đ",
+      status: "Đang vận hành",
       tag: "ppa",
     },
     {
       id: 5,
-      name: "Gỗ Bình Định",
-      capacity: "2.1 MWp",
-      location: "Bình Định",
-      industry: "Gỗ xuất khẩu",
+      name: "Nhà máy gỗ Bình Định - Bình Dương",
+      capacity: "2100 kWp",
+      location: "Bình Dương",
+      industry: "Sản xuất gỗ xuất khẩu",
       model: "EPC",
-      savings: "~2,8 tỷ VND/năm",
-      payback: "2,8 năm",
-      co2: "1.900 tấn/năm",
-      device: "Canadian Solar & Sungrow",
+      savings: "5,4 tỷ VND/năm",
+      payback: "3 năm",
+      co2: "2.178 tấn",
+      device: "JA Solar",
       duration: "25 ngày",
-      status: "Đang chạy",
+      status: "Đang vận hành",
       tag: "epc",
     },
   ];
@@ -161,7 +161,7 @@ export default function EPCProjects() {
                   <div className="space-y-6">
                     {/* Top Row: Name, Industry and Status */}
                     <div className="flex items-start justify-between gap-3">
-                      <div className="space-y-1">
+                      <div className="space-y-1 min-h-[72px]">
                         <span className="text-[10px] font-bold text-stone-400 uppercase tracking-wider block">
                           Ngành: {p.industry}
                         </span>
@@ -196,7 +196,7 @@ export default function EPCProjects() {
                       
                       <div className="flex justify-between items-center py-0.5 border-t border-stone-200/20">
                         <span className="opacity-75 flex items-center gap-1.5 font-medium">
-                          <TrendingUp className="w-3.5 h-3.5 text-solar-gold" /> Tiết kiệm/năm:
+                          <TrendingUp className="w-3.5 h-3.5 text-solar-gold" /> Tiết kiệm / năm:
                         </span>
                         <span className="font-bold text-emerald-600">{p.savings}</span>
                       </div>
@@ -252,7 +252,7 @@ export default function EPCProjects() {
                 <div className="bg-cream-base border border-solar-gold/15 w-14 h-14 rounded-full flex items-center justify-center text-earth-brown mb-5 group-hover:scale-105 transition-transform duration-300">
                   <Factory className="w-6 h-6 text-earth-brown" />
                 </div>
-                <h3 className="text-xl font-bold text-slate-text tracking-tight mb-2">Dự án của bạn?</h3>
+                <h3 className="text-xl font-bold text-slate-text tracking-tight mb-2">Dự án của anh/chị?</h3>
                 <p className="text-xs text-stone-600 opacity-90 max-w-[220px] mb-6 leading-relaxed font-normal">
                   Khảo sát miễn phí kết cấu dầm kèo & hồ sơ phụ tải trong vòng 48h.
                 </p>

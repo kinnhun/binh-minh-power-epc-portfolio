@@ -72,7 +72,7 @@ export default function EPCProcess() {
                   Quy trình thực hiện
                 </span>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-slate-text tracking-tight leading-tight">
-                  Quy trình EPC Trọn Gói — Không lo gì cả
+                  Quy trình EPC Trọn Gói
                 </h2>
                 <p className="text-stone-600 text-sm md:text-base font-normal leading-relaxed">
                   Bình Minh Power chịu trách nhiệm toàn diện từ khảo sát kết cấu, thiết kế hệ thống, cung cấp thiết bị, thi công lắp đặt và hoàn thiện pháp lý đấu nối A–Z.
